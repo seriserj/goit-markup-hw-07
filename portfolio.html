@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+
+    <header class="header">
+      <div class="container">
+        <a
+          class="header__logo"
+          href="https://seriserj.github.io/goit-markup-hw-06/"
+          ><p class="p__logo"><span class="span__logo">Web</span>Studio</p></a
+        >
+        <nav class="header__navigation">
+          <ul>
+            <li>
+              <a href="index.html">Studio</a>
+            </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <svg class="item0">
+            <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
+          </svg>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <svg class="item0">
+            <use href="./images/icons/symbol-defs.svg#icon-smartphone"></use>
+          </svg>
+          <a href="tel:+1212-772-4150">+1212-772-4150</a>
+        </div>
+      </div>
+    </header>
+    <!--Main Section-->
+    <main>
+      <section class="portfolio-button">
+        <div class="container">
+          <button type="button" class="portfolio__nav">All</button>
+          <button type="button" class="portfolio__nav">Web-site</button>
+          <button type="button" class="portfolio__nav">Apps</button>
+          <button type="button" class="portfolio__nav">Desing</button>
+          <button type="button" class="portfolio__nav">Marketing</button>
+        </div>
+      </section>
+      <section class="portfolio-img">
+        <div class="container">
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <img src="images/i1.jpg" alt="laptop" width="370" />
+                <div class="overlay">
+                  <p class="overlay_text">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </p>
+                </div>
+              </div>
+              <h6 class="h6">Technoduck</h6>
+              <p class="team">Web-site</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i2.jpg" alt="poster" width="370" />
+              </div>
+
+              <h6 class="h6">Poster New Orlean vs Golden Star</h6>
+              <p class="team">Design</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <img src="images/i3.jpg" alt="logo seafood" width="370" />
+                <div class="overlay"></div>
+              </div>
+              <h6 class="h6">Seafood Restaurant</h6>
+              <p class="team">Apps</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i4.jpg" alt="headphones" width="370" />
+              </div>
+              <h6 class="h6">Project Prime</h6>
+              <p class="team">Marketing</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i5.jpg" alt="boxes" width="370" />
+              </div>
+              <h6 class="h6">Project Boxes</h6>
+              <p class="team">Apps</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <img src="images/i6.jpg" alt="pc monitor" width="370" />
+                <div class="overlay"></div>
+              </div>
+              <h6 class="h6">Inspiration has no Borders</h6>
+              <p class="team">Web-site</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i7.jpg" alt="book" width="370" />
+              </div>
+              <h6 class="h6">Limited Edition</h6>
+              <p class="team">Design</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i8.jpg" alt="label" width="370" />
+              </div>
+              <h6 class="h6">Project LAB</h6>
+              <p class="team">Marketing</p>
+            </div>
+          </div>
+          <div class="container__portfolio">
+            <div class="box">
+              <div class="box_overlay">
+                <div class="overlay"></div>
+                <img src="images/i9.jpg" alt="laptop" width="370" />
+              </div>
+              <h6 class="h6">Growing Business</h6>
+              <p class="team">Apps</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="footer-addres">
+        <address class="footer__addres">
+          <a href="#"
+            ><p class="p__logo"><span class="span__logo">Web</span>Studio</p></a
+          >
+          <p class="footer-addres__addres">695 Park Ave, NY 10065, USA</p>
+
+          <a href="https://seriserj.github.io/goit-markup-hw-06/"
+            ><p><span>info@devstudio.com</span></p></a
+          >
+          <a href="tel:+1212-772-4150">+1212-772-4150</a>
+        </address>
+      </div>
+
+      <!--Footer Section social-->
+
+      <section class="footer-social">
+        <div class="test">
+          <ul class="footer-social__logo">
+            <h4 class="footer-social__h4">FIND US ON</h4>
+            <li>
+              <svg class="item4">
+                <use
+                  href="./images/icons/symbol-defs.svg#icon-instagram1"
+                ></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="item4">
+                <use href="./images/icons/symbol-defs.svg#icon-twitter1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="item4">
+                <use href="./images/icons/symbol-defs.svg#icon-facebook1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="item4">
+                <use href="./images/icons/symbol-defs.svg#icon-linkedin1"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Footer Section subscribe-->
+      <section class="subscribe">
+        <div class="subscribe-div">
+          <h3 class="subscribe_title">Subscribe to the newsletter</h3>
+          <form name="subscribe_form" class="subscribe_form"></form>
+          <label class="subscribe_position">
+            <input
+              name="useremail"
+              type="email"
+              class="subscribe_input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe_btn">
+              Subscribe
+              <svg class="subscribe_svg" width="24px" height="24px">
+                <use
+                  href="./images/icons/symbol-defs.svg#icon-icon-sageata"
+                ></use>
+              </svg>
+            </button>
+          </label>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
